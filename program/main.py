@@ -3,7 +3,7 @@ from func_connections import connect_dydx
 from func_private import abort_all_positions
 from func_public import construct_market_prices
 from pprint import pprint
-
+from prettyprinter import cpprint
 
 if __name__ == "__main__":
    
