@@ -1,0 +1,5 @@
+Order cancelled... Error trading pairs: 'NoneType' object is not subscriptable
+    --- add some pairs that are only factor of 10 to TOKEN_FACTOR_10
+Error trading pairs: 'NoneType' object is not subscriptable 
+    --- all time.sleep(2) to (5)
+

@@ -3,16 +3,22 @@ from decouple import config
 
 # !!!! SELECT MODE !!!!!
 MODE = "DEVELOPMENT"
-# MODE = "PRODUCTION"
+### MODE = "PRODUCTION"
 
 # Close all open positions and orders
-ABORT_ALL_POSITIONS = False
+ABORT_ALL_POSITIONS = True
 
-# Fin Cointegrated Pairs
+# Find Cointegrated Pairs
 FIND_COINTEGRATED = True
+
+# Manage Exits
+MANAGE_EXITS = True
 
 # Place Trades
 PLACE_TRADES = True
+
+# None object not found fix
+TOKEN_FACTOR_10 = ["XLM-USD", "DOGE-USD", "TRX-USD"]
 
 # Resolution
 RESOLUTION = "1HOUR"
@@ -23,8 +29,8 @@ WINDOW = 21
 # Thresholds - Opening
 MAX_HALF_LIFE = 24
 ZSCORE_THRESH = 1.5
-USD_PER_TRADE = 50
-USD_MIN_COLLATERAL = 1880
+USD_PER_TRADE = 100
+USD_MIN_COLLATERAL = 1000
 
 # Thresholds - Closing
 CLOSE_AT_ZSCORE_CROSS = True
