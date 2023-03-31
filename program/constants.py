@@ -18,7 +18,7 @@ MANAGE_EXITS = True
 PLACE_TRADES = True
 
 # None object not found fix
-TOKEN_FACTOR_10 = ["XLM-USD", "DOGE-USD", "TRX-USD"]
+TOKEN_FACTOR_10 = ["XLM-USD", "DOGE-USD", "TRX-USD", "EOS-USD", "UMA-USD"]
 
 # Resolution
 RESOLUTION = "1HOUR"
