@@ -13,9 +13,7 @@ from prettyprinter import cpprint
 # MAIN FUNCTION
 if __name__ == "__main__":
     
-    success = send_message("Effing work?")
-    print(success)
-    exit(1)
+    send_message("Bot launch successful")
    
     # Connect to client
     try:
@@ -23,6 +21,7 @@ if __name__ == "__main__":
         client = connect_dydx()
     except Exception as e:
         cpprint("Error connecting to Client: ", e)
+        send_message(f"Failed to connect to client {e}")
         exit(1)
 
     # Abort all open positions
@@ -32,6 +31,7 @@ if __name__ == "__main__":
             close_orders = abort_all_positions(client)
         except Exception as e:
             print("Error closing all positions: ", e)
+            send_message(f"Error closing positions {e}")
             exit(1)
     
     # Find Cointegrated Pairs
@@ -43,6 +43,7 @@ if __name__ == "__main__":
             df_market_prices = construct_market_prices(client)
         except Exception as e:
             print("Error contructing market prices: ", e)
+            send_message(f"Error getting market prices {e}")
             exit(1)
 
         # Store Cointegrated Pairs
@@ -54,6 +55,7 @@ if __name__ == "__main__":
                 exit(1)
         except Exception as e:
             print("Error saving cointegrated pairs: ", e)
+            send_message(f"Error saving pairs {e}")
             exit(1)
     
     # Run as always on        
@@ -66,6 +68,7 @@ if __name__ == "__main__":
                 manage_trade_exits(client)
             except Exception as e:
                 print("Error managing exiting positions: ", e)
+                send_message(f"Error managing exits {e}")
                 exit(1)
 
                 
@@ -76,6 +79,7 @@ if __name__ == "__main__":
                 open_positions(client)
             except Exception as e:
                 print("Error trading pairs: ", e)
+                send_message(f"Error opening trades {e}")
                 exit(1)
 
 
