@@ -13,6 +13,7 @@ from prettyprinter import cpprint
 # MAIN FUNCTION
 if __name__ == "__main__":
     
+    # Message on start
     send_message("Bot launch successful")
    
     # Connect to client
