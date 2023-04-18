@@ -1,23 +1,23 @@
 aiohttp==3.8.1
 aiosignal==1.3.1
-asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1670263926556/work
+asttokens==2.2.1
 async-timeout==4.0.2
 atomicwrites==1.4.1
 attrs==22.1.0
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+backcall==0.2.0
+backports.functools-lru-cache==1.6.4
 base58==2.1.1
 bitarray==2.6.0
 certifi==2022.12.7
 charset-normalizer==2.1.1
 click==8.1.3
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+colorama==0.4.6
 colorful==0.5.5
-Cython @ file:///C:/b/abs_0438epndxm/croots/recipe/cython_1663692771227/work
+Cython==0.29.32
 cytoolz==0.11.2
 dateparser==1.0.0
-debugpy @ file:///C:/ci_310/debugpy_1642079916595/work
-decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+debugpy==1.5.1
+decorator==5.1.1
 distlib==0.3.6
 dydx-v3-python==1.9.1
 ecdsa==0.16.0
@@ -29,72 +29,74 @@ eth-keys==0.3.4
 eth-rlp==0.2.1
 eth-typing==2.3.0
 eth-utils==1.9.5
-executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1667317341051/work
+executing==1.2.0
 filelock==3.8.2
 frozenlist==1.3.3
 hexbytes==0.3.0
 idna==3.4
 importlib-metadata==0.23
 ipfshttpclient==0.8.0a2
-ipykernel @ file:///D:/bld/ipykernel_1655369313836/work
-ipython @ file:///D:/bld/ipython_1677617262387/work
-jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1669134318875/work
+ipykernel==6.15.0
+ipython==8.11.0
+jedi==0.18.2
 jsonschema==4.17.3
-jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1676579893731/work
-jupyter_core @ file:///D:/bld/jupyter_core_1678994400417/work
+jupyter_client==8.0.3
+jupyter_core==5.3.0
 lru-dict==1.1.8
-matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
+matplotlib-inline==0.1.6
 more-itertools==9.0.0
 mpmath==1.0.0
 multiaddr==0.0.9
 multidict==6.0.3
 mypy-extensions==0.4.3
-nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1664684991461/work
+nest-asyncio==1.5.6
 netaddr==0.8.0
 numpy==1.23.5
 packaging==22.0
 pandas==1.5.2
 parsimonious==0.8.1
-parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+parso==0.8.3
 pathspec==0.10.3
 patsy==0.5.3
-pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+pickleshare==0.7.5
+pip==23.0.1
 platformdirs==2.6.0
 pluggy==0.13.1
 prettyprinter==0.18.0
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1677600924538/work
+prompt-toolkit==3.0.38
 protobuf==3.19.5
-psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
-pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+psutil==5.9.0
+pure-eval==0.2.2
 py==1.11.0
 pycodestyle==2.10.0
 pycryptodome==3.16.0
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1672682006896/work
+Pygments==2.14.0
 PyJWT==2.6.0
 pyrsistent==0.19.2
 pytest==4.6.11
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-dateutil==2.8.2
 python-decouple==3.6
 pytz==2022.6
 pytz-deprecation-shim==0.1.0.post0
 pywin32==305.1
-pyzmq @ file:///C:/ci/pyzmq_1657616000714/work
+pyzmq==23.2.0
 regex==2022.10.31
 requests==2.28.1
 requests-mock==1.6.0
 rlp==2.0.1
 scipy==1.9.3
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+setuptools==50.3.2
+six==1.16.0
+stack-data==0.6.2
 statsmodels==0.13.5
 sympy==1.6
 toml==0.10.2
 tomli==2.0.1
-toolz @ file:///C:/b/abs_cfvk6rc40d/croot/toolz_1667464080130/work
-tornado @ file:///D:/bld/tornado_1656937966227/work
+toolz==0.12.0
+tornado==6.2
 tox==3.13.2
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1675110562325/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1678559861143/work
+traitlets==5.9.0
+typing_extensions==4.5.0
 tzdata==2022.7
 tzlocal==4.2
 urllib3==1.26.13
@@ -103,6 +105,7 @@ virtualenv==20.17.1
 wcwidth==0.2.5
 web3==5.31.3
 websockets==9.1
+wheel==0.38.4
 wincertstore==0.2
 yarl==1.8.2
 zipp==3.11.0
