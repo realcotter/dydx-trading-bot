@@ -6,3 +6,16 @@ Error trading pairs: 'NoneType' object is not subscriptable
 EOS-USD vs UMA-USD - Order cancelled...
 {'order': {'id': '1a5f67c71668b696642ad8d55e05da9544fdab7d5d51fce2e752b5594d507a0', 'clientId': '755941783615408', 'accountId': 'e743fbd5-df8e-50f9-b10c-e4c8c25f82a3', 'market': 'EOS-USD', 'side': 'BUY', 'price': '1.989', 'triggerPrice': None, 'trailingPercent': None, 'size': '85', 'reduceOnlySize': None, 'remainingSize': '85', 'type': 'MARKET', 'createdAt': '2023-03-30T02:17:24.557Z', 'unfillableAt': None, 'expiresAt': '2023-03-30T08:18:34.246Z', 'status': 'PENDING', 'timeInForce': 'FOK', 'postOnly': False, 'reduceOnly': True, 'cancelReason': None}}
 Error trading pairs:  'NoneType' object is not subscriptable
+
+done - make standalone close all positions script
+
+github commit commands -local machine-
+    git add .
+    git commit -m "put version here"
+    git push -u origin main
+
+github pull commands -amazon ec2 instance-
+    git reset --hard HEAD
+    git pull origin --rebase
+
+
